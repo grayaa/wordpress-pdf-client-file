@@ -1,0 +1,104 @@
+ul.pdf-files-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 25px;
+}
+
+ul.pdf-files-list li {
+    margin-bottom: 25px;
+    width: 50%;
+    float: left;
+    height: auto;
+    background: url("../images/pdf.png") no-repeat left center transparent;
+    min-height: 48px;
+}
+
+
+ul.pdf-files-list li a{
+    list-style-type: none;
+    background: none;
+    display: inline-block;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 54px;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+ul.pdf-files-list:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul.pdf-files-list.featured-files {
+    margin-bottom: 0;
+}
+
+ul.pdf-files-list.featured-files li {
+    margin-bottom: 20px;
+    width: 447px;
+    float: left;
+    max-width: 100%;
+}
+
+span.seagull {
+    color: #0c0c0c;
+    padding-left: 40px;
+    background: url(../images/white-seagull.png) no-repeat;
+    height: 35px;
+    display: block;
+    padding-top: 10px;
+    font-size: 17px;
+    float: left;
+}
+
+span.lighthouse {
+    color: #0c0c0c;
+    padding-left: 40px;
+    background: url(../images/white-lighthouse.png) no-repeat;
+    height: 35px;
+    display: block;
+    padding-top: 10px;
+    font-size: 17px;
+    float: left;
+}
+
+.pdf-file-block {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.pdf-file-block {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 20px;
+    float: left;
+    margin-right: 0;
+    width: 50%;
+}
+
+.latest-pub-wrapper:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+a.icon-fr {
+    background: url(../images/fr.png) no-repeat;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+a.icon-en {
+    background: url(../images/en.png) no-repeat;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    margin-top: 9px;
+    margin-left: 10px;
+}
